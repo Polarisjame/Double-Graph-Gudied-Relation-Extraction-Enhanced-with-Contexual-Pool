@@ -49,9 +49,9 @@ As illustrated in figure, My model Follow the structure of GAIN.
 
 ![TrainPic](./Picture/figure1.png)
 
-Inspired by the paper *Document-Level Relation Extraction With Adaptive Thresholding And Localized Context Pooling*, I replaced the **mention representation** with Special Token (e.g., \***Britain**\* ‘s Prince \***Harry**\* is engaged to his US partner …, where **'\*'** represents to a special token.) instead of Average Pooling. 
-Secondly, I use **Graph Attention Network** to capture the Strcutural Feature of Document and Reduce noise at the same time.
-Besides, I merge the mention representations to entity representation through **LogSumExp Pooling**, which is proved to perform better than Average Pooling.
+Inspired by the paper *Document-Level Relation Extraction With Adaptive Thresholding And Localized Context Pooling*, I replaced the **mention representation** with Special Token (e.g., \***Britain**\* ‘s Prince \***Harry**\* is engaged to his US partner …, where **'\*'** represents to a special token.) instead of Average Pooling. <br>
+Secondly, I use **Graph Attention Network** to capture the Strcutural Feature of Document and Reduce noise at the same time.<br>
+Besides, I merge the mention representations to entity representation through **LogSumExp Pooling**, which is proved to perform better than Average Pooling.<br>
 Finally, I redesign the representation of  Paths in Entity Graph. Following <a href="https://arxiv.org/abs/2010.11304">*Zhou et al.(2021)*</a>, I merge **Contextual Information** through Attention mechanism to Entity Representation to construct Path between entity pairs and do Inference on entity graph.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
