@@ -19,6 +19,7 @@
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -94,3 +95,6 @@ results are saved under code/logs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Polarisjame/Double-Graph-Gudied-Relation-Extraction-Enhanced-with-Contexual-Pool/blob/main/LICENSE) file for details.
